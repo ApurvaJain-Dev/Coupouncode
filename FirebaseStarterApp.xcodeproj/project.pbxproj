@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		177371E82221D7C6003E7EC4 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
-		1773BFC6221FA51C005C82D8 /* FirebaseStarterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseStarterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1773BFC6221FA51C005C82D8 /* Coupon Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coupon Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1773BFC9221FA51C005C82D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1773BFD0221FA51F005C82D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1773BFD3221FA51F005C82D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		1773BFC7221FA51C005C82D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1773BFC6221FA51C005C82D8 /* FirebaseStarterApp.app */,
+				1773BFC6221FA51C005C82D8 /* Coupon Code.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 			);
 			name = FirebaseStarterApp;
 			productName = FirebaseStarterApp;
-			productReference = 1773BFC6221FA51C005C82D8 /* FirebaseStarterApp.app */;
+			productReference = 1773BFC6221FA51C005C82D8 /* Coupon Code.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -445,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.couponcode.firebase;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Coupon Code";
 				PROVISIONING_PROFILE_SPECIFIER = "VS: WildCard Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.couponcode.firebase;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Coupon Code";
 				PROVISIONING_PROFILE_SPECIFIER = "VS: WildCard Development";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
