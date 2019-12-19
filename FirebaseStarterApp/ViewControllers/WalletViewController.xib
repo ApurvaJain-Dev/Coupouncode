@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WalletViewController" customModule="FirebaseStarterApp" customModuleProvider="target">
+            <connections>
+                <outlet property="lblTotalCredit" destination="NSb-HN-HDH" id="3GC-Bu-oYT"/>
+                <outlet property="tableView" destination="pGe-nx-dik" id="Fgq-Nz-DY4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have total $ 100 Credit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSb-HN-HDH">
+                    <rect key="frame" x="82" y="48" width="250" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="fUp-8Y-CGp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIy-ZT-Ubm">
+                    <rect key="frame" x="103" y="112" width="208" height="30"/>
+                    <color key="backgroundColor" red="0.15686274509803921" green="0.1803921568627451" blue="0.30980392156862746" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2VX-NT-JjB"/>
+                    </constraints>
+                    <state key="normal" title="Create Coupoun">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="createCouponCodeClicked:" destination="-1" eventType="touchUpInside" id="hd0-Wa-LRO"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pGe-nx-dik">
+                    <rect key="frame" x="26" y="189" width="362" height="652"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pGe-nx-dik" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="26" id="6ym-or-iAh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pGe-nx-dik" secondAttribute="trailing" constant="26" id="CBR-1L-M1t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NSb-HN-HDH" secondAttribute="trailing" constant="82" id="LVl-En-GgJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mIy-ZT-Ubm" secondAttribute="trailing" constant="103" id="M5a-Bb-U6R"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pGe-nx-dik" secondAttribute="bottom" constant="21" id="PyR-TM-7H1"/>
+                <constraint firstItem="NSb-HN-HDH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="82" id="S95-qd-MWl"/>
+                <constraint firstItem="NSb-HN-HDH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="4" id="hcQ-2T-KUo"/>
+                <constraint firstItem="pGe-nx-dik" firstAttribute="top" secondItem="mIy-ZT-Ubm" secondAttribute="bottom" constant="47" id="lrW-4D-dVr"/>
+                <constraint firstItem="mIy-ZT-Ubm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="103" id="o4r-NQ-Ff1"/>
+                <constraint firstItem="mIy-ZT-Ubm" firstAttribute="top" secondItem="NSb-HN-HDH" secondAttribute="bottom" constant="43" id="w0i-1e-M6g"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-71.014492753623188" y="152.67857142857142"/>
+        </view>
+    </objects>
+</document>
